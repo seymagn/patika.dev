@@ -1,0 +1,27 @@
+p{
+    color: rgb(6, 49, 238);
+}
+body{
+    background-color: rgb(243, 196, 243);
+}
+h1{
+    color: rgb(12, 11, 11);
+    margin: .1rem;
+    text-align: center;
+}
+h2{
+    color: rgb(95, 33, 4);
+}
+li{
+    color: teal;
+    font: optional;
+    list-style-position: inside;
+   
+}
+footer{
+    color: red;
+}
+a{
+    text-align: center;
+    color: rgb(37, 7, 207);
+}

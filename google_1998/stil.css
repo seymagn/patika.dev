@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.ortala{
+   
+    display: table; 
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* text-align:center; */
+    margin:0 auto;
+  }
+.ben  {
+    text-align: center;
+    background-color: rgb(185, 181, 181);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h4{
+    text-align: center;
+    
+    font-family:serif;
+    
+}
+
+
+.deger div{
+  
+  display: inline-block;
+
+}
+/* 
+.dib-2{
+    font-size: 15px;
+} */
+.dib-2 div{
+    display: inline-block;
+    font-size: 15px;
+}
+.grid {
+     display: grid;  /* yapıları yan yana getirmemi sağlar */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px; /* aralara boşluk atar */
+    text-align: center;
+}
+
+.search{
+    box-sizing: border-box;
+    width: 250px;
+    vertical-align: middle;
+    margin: 0% auto;
+    padding: 0%;
+    
+}
+
+.ilk{
+    background-color: rgb(90, 218, 205);
+}
+.ikinci{
+    background-color: rgb(59, 177, 165);
+}
+.ücüncü{
+   background-color: rgb(28, 151, 139);
+}

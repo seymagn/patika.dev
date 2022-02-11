@@ -1,0 +1,70 @@
+/* 
+Açıklama Satırı....
+
+*/
+/* class içine önüne nokta durum ve süslü parantez
+id için # işareti durum süslü parantez */
+
+/* first-child -> ilk element
+last-child -> son element */
+/* li:first-child{
+    color: brown;
+}
+li:last-child{
+    color: aqua;
+}
+.color-blue.fw-normal{     
+    color: blue ;
+    font-weight: normal;
+} */
+/* li'nin içindeki 2 yapıya yapılan işlemler
+parantez içine odd 1,3,5.. olan değerleri uygulama yaptı 
+parantez içine even  2,4,6.. olan değerlere uygulama yaptı */
+/* li:nth-child(2){
+    color: pink;
+}
+
+li:nth-child(even){
+    background-color: turquoise;
+} */
+/* 1n = hepsi
+3n-1 ->3ün katları eksi 1
+2n-1 yapıları kullanılabilir. */
+li:nth-child(n){
+    color: red;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#be4b4b;
+}
+p{
+    font-size: 20px;
+  
+}
+
+
+h1{
+    font-size: 20px;
+}
+
+#first-article{
+    font-size: 40px;
+}
+
+
+.text-red{
+    color: red;
+}
+
+.fs-14{
+    font-size: 14 px;
+
+}
+
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-30{
+ font-size: 30px;
+}
